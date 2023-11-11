@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "BodyCopy": {
+      "type": "richtext"
+    },
+    "ProjectCreated": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "json"
+    },
+    "FeatureImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CtaProjectTitle": {
+      "type": "string"
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CtaProjectLink": {
+      "type": "string"
+    },
+    "Tools": {
+      "type": "json"
+    },
+    "TitleColor": {
+      "type": "string"
+    },
+    "CtaCodeTitle": {
+      "type": "string"
+    },
+    "CtaCodeLink": {
+      "type": "string"
+    }
+  }
+}
